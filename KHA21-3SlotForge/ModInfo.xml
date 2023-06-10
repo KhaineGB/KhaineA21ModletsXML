@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="3SlotForgeInput" />
+	<DisplayName value="Khaine's 3-slot Forge Input" />
+	<Description value="This modlet changes the forge to 3 slots for smelting." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

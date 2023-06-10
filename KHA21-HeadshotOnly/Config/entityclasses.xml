@@ -1,0 +1,10 @@
+<config>
+	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+		<effect_group>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-1">
+				<requirement name="!HitLocation" body_parts="Head"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			</passive_effect>
+		</effect_group>
+	</append>
+</config>

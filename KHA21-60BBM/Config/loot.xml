@@ -1,0 +1,4 @@
+<configs>
+    <!-- Make player dropped bags bigger to accomodate new size-->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>	
+</configs>

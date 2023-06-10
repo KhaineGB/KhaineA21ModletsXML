@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="NVGChange" />
+	<DisplayName value="Khaine's Change Nightvision Effect Modlet" />
+	<Description value="Changes nightvision to use the Bright screen effect like it is in Darkness Falls." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

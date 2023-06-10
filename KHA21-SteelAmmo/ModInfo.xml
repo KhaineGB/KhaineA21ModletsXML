@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="SteelAmmoModlet" />
+	<DisplayName value="Khaine's Steel Ammo Modlet" />
+	<Description value="Re-adds steel ammo back to the game." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

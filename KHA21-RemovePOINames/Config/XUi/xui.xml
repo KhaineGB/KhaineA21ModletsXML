@@ -1,0 +1,4 @@
+<configs>
+	<!-- Remove windowEntering to stop POI names and skulls popping up -->
+	<remove xpath="/xui/ruleset/window_group[@name='compass']/window[@name='windowEntering']">windowThreeForgeInput</remove>
+</configs>

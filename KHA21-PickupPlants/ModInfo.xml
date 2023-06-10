@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="PickupWildPlants" />
+	<DisplayName value="Khaine's Pick up wild plants mod" />
+	<Description value="This modlet restores the ability to pick up wild plants using E, like cotton, corn, goldenrod, etc. Doing this does NOT benefit from perks. You still need to punch them for that." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

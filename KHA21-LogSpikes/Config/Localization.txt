@@ -1,0 +1,8 @@
+Key,english
+rScrapIronLogSpike5,R Iron Log Spike 5
+rWoodLogSpike2,Reinforced Wood Log Spike 2
+rWoodMetalLogSpike3,Reinforced Wood Metal Log Spike 3
+scrapIronLogSpike4,Iron Log Spike
+steelLogSpike6,Steel Log Spike 6
+woodLogSpike1,Wood Log Spike
+woodLogSpike1Desc,"Log spike traps can damage, cripple, even kill enemies and last longer than spike traps. Place them using the secondary action. (Upgradable)"

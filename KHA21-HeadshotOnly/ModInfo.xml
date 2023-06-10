@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="HeadshotOnly" />
+	<DisplayName value="Khaine's XML Based Headshot Only Mod." />
+	<Description value="Zombies only take full damage from headshots. The headshot damage is further modified by default vanilla difficulty settings." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="SpawnsAndClaimsMod" />
+	<DisplayName value="Khaine's Spawns and Claims Mod" />
+	<Description value="Adds max spawned zombies, max spawned animals and multiple claim block options to the main menu." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>
