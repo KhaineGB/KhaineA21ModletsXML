@@ -1,0 +1,4 @@
+<configs>
+	<!-- Remove windowLocation to stop POI names and skulls showing up in the top right -->
+	<remove xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='windowLocation']"></remove>
+</configs>

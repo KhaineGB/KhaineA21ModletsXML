@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="RemovePOINamesTracker" />
+	<DisplayName value="Khaine's POI Name Tracker Removal" />
+	<Description value="Removes the tracker in the top right that shows POI names/biomes and the skulls for folks who want a more immersive feel." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>
