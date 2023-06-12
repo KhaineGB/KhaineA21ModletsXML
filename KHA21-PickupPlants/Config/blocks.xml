@@ -87,11 +87,10 @@
 	<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
 	<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
 		<property name="Material" value="Mcorn"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="corn_harvest_shape"/>
-		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/OutdoorDecor/cornStalkSuperPrefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,3,1"/>
-		<property name="Texture" value="529"/>
 	</append>	
 	
 	<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
@@ -102,24 +101,26 @@
 	<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
 	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
 		<property name="Material" value="Mcorn"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="corn_harvest_shape"/>
-		<property name="Mesh" value="cutoutmoveable"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/OutdoorDecor/cornStalkGreenPrefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,3,1"/>
-		<property name="Texture" value="529"/>
 	</append>	
 	
 	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
 	<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
 		<property name="Material" value="Mmushrooms"/>
-		<property name="DisplayType" value="blockMulti" />
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
+		<property name="PickupJournalEntry" value="farmingTip"/>
+		<property name="DisplayType" value="blockMulti"/>
 		<property name="DisplayInfo" value="Description"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="Entities/OutdoorDecor/mushroomHarvestPrefab"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="Collide" value="melee"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="PlantGrowing.FertileLevel" value="0"/>
-		<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
+		<property name="VehicleHitScale" value=".1"/>
 		<property name="HarvestOverdamage" value="false"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="FilterTags" value="foutdoor,fcrops"/>
