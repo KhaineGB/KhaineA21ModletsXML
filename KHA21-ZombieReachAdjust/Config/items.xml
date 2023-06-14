@@ -1,0 +1,3 @@
+<config>
+	<set xpath="/items/item[@name='meleeHandMaster']/effect_group/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+</config>

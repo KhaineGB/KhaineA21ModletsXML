@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ZombieReachAdjust" />
+	<DisplayName value="Khaine's Zombie Range Adjustment" />
+	<Description value="Lowers the zombie reach so it feels less like crap when they slap you outside of spear range." />
+	<Author value="KhaineGB" />
+	<Version value="1.0.0.1" />
+	<Website value="" />
+</xml>
