@@ -1,7 +1,7 @@
 <configs>
-	<!-- Since A20 already has the combo box, we're just enabling it -->
+	<!-- Since A21 already has the combo box, we're just enabling it -->
 	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']"> 		
-		<combobox depth="3" name="cbxLockedSlots" pos="120,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="45" value_wrap="true" value_increment="1" />
+		<combobox depth="3" name="cbxLockedSlots" pos="-120,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="45" value_wrap="true" value_increment="1" />
 	</append>
 	
 	<append xpath="/windows/window[@name='windowVehicleStorage']/panel[@name='header']/rect[@controller='ContainerStandardControls']">		
