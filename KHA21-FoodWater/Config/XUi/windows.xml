@@ -8,7 +8,7 @@
 
 	<append xpath="/windows">
 		<window name="KHHUDLeftStatBars">
-			<rect name="hud" pos="9,187" rows="2" cols="1" width="168" side="right">
+			<rect name="hud" pos="9,195" rows="2" cols="1" width="168" side="right">
 				<rect width="171" height="46" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,150" height="46" type="sliced" />
 					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
@@ -85,7 +85,7 @@
 				</rect>
 			</rect>
 
-			<rect name="hud" pos="90,160" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
+			<rect name="hud" pos="90,170" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
 				<panel width="168" height="46" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" style="press" sound="[recipe_click]" on_hover="true" >
 					<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="46" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
 					<sprite depth="4" name="Icon" size="40,40" pos="-54,0" pivot="center" color="[transparent]"/>

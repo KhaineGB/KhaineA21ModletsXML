@@ -36,6 +36,9 @@
 	<append xpath="/blocks/block[@name='plantedHop3Harvest']">
 		<property name="Class" value="CropsGrown"/>
 	</append>
+	<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+		<property name="Class" value="CropsGrown"/>
+	</append>
 	
 	<!-- Special fixes for player-grown crops so they can't be picked up with E -->
 	<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
@@ -125,4 +128,19 @@
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="FilterTags" value="foutdoor,fcrops"/>
 	</append>		
+	
+	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+		<property name="Extends" value="cropsHarvestableMaster"/>
+		<property name="Material" value="Mcorn"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Plants/pumpkinHarvestPrefab"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="plantedPumpkin1"/>
+		<property name="DescriptionKey" value="plantedPumpkin3HarvestDesc"/>
+		<drop event="Harvest" name="foodCropPumpkin" count="2" tag="cropHarvest"/>
+		<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+		<drop event="Destroy" name="plantedPumpkin1" count="1" prob="0.5"/>
+		<property name="SortOrder1" value="B964"/>
+		<property name="SortOrder2" value="0002"/>
+	</set>
 </configs>
